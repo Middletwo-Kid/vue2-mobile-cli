@@ -43,6 +43,8 @@ router.beforeEach((to: any, from: any, next: () => void): void => {
   document.title = title;
 
   // check login, so that ...
+
+  next();
 });
 
 router.afterEach((to: any, from: any): void => {

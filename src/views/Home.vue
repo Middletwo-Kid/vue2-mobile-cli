@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    This is Home
+    <van-button type="primary">主要按钮</van-button>
   </div>
 </template>
 
@@ -10,3 +10,7 @@ import { Component, Vue } from 'vue-property-decorator';
 @Component
 export default class Home extends Vue {}
 </script>
+
+<style scoped lang='scss'>
+
+</style>

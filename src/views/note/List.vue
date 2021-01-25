@@ -14,6 +14,6 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 export default class NoteList extends Vue {}
 </script>
 
-<style scoped lang='less'>
+<style scoped lang='scss'>
 
 </style>
