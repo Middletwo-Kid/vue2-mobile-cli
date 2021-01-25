@@ -13,6 +13,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "core-js": "^2.6.5",
+    "qs": "^6.9.6",
     "vant": "^2.12.5",
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",
@@ -25,6 +26,7 @@
     "@commitlint/config-conventional": "^11.0.0",
     "@types/chai": "^4.1.0",
     "@types/mocha": "^5.2.4",
+    "@types/qs": "^6.9.5",
     "@vue/cli-plugin-babel": "^3.0.4",
     "@vue/cli-plugin-e2e-cypress": "^3.0.4",
     "@vue/cli-plugin-eslint": "^3.0.4",
