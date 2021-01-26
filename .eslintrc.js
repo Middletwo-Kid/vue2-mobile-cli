@@ -16,6 +16,10 @@ module.exports = {
     'class-methods-use-this': 'off', // 在示例方法中没有使用this，那么ESLint推荐你写成static方法
     'no-underscore-dangle': 'off',
     'no-param-reassign': 'off',
+    'no-tabs': 'off',
+    'func-names': 'off',
+    'no-shadow': 'off',
+    'no-plusplus': 'off',
   },
   parserOptions: {
     parser: '@typescript-eslint/parser',
