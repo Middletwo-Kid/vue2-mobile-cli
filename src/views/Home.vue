@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <van-button type="primary" @click="handleClick">axio获取列表</van-button>
+    <hr/>
     <van-button type="primary" @click="handleClickGetVuex">vuex获取列表并存储</van-button>
   </div>
 </template>
