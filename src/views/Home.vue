@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <div class="bg-wrapper"/>
     <van-button type="primary" @click="handleClick">axio获取列表</van-button>
     <hr/>
     <van-button type="primary" @click="handleClickGetVuex">vuex获取列表并存储</van-button>
@@ -43,5 +44,9 @@ export default class Home extends Vue {
 </script>
 
 <style scoped lang='scss'>
-
+.bg-wrapper{
+  width: 100px;
+  height: 100px;
+  background-image: url('../assets/logo.png');
+}
 </style>
