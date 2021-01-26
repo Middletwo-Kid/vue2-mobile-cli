@@ -20,6 +20,7 @@ module.exports = {
     'func-names': 'off',
     'no-shadow': 'off',
     'no-plusplus': 'off',
+    'lines-between-class-members': 'off',
   },
   parserOptions: {
     parser: '@typescript-eslint/parser',

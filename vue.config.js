@@ -1,6 +1,5 @@
 const path = require('path');
 
-console.log('process.env.NODE_ENV', process.env.NODE_ENV, process.env.NODE_ENV === 'production');
 module.exports = {
   css: {
     loaderOptions: {
@@ -14,7 +13,7 @@ module.exports = {
     hot: true,
     proxy: {
       '/api': {
-        target: 'http://aaa.com/api',
+        target: 'http://crmtest.8kqw.com/api',
         changeOrigin: true,
         ws: true,
         pathRewrite: {
