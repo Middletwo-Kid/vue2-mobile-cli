@@ -21,10 +21,11 @@ npm run serve
 - 移动端界面适配，自动转为vw
 - 引入并封装了axios
 - 按需引入vant
-- husky + @commitlint/cli 规范化提交
+- git（husky + @commitlint/cli）规范
 - ESlint
 - 优化了打包体积
 - 优化了构建速度
+- style规范
 
 ---
 
