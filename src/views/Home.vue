@@ -44,7 +44,7 @@ export default class Home extends Vue {
 </script>
 
 <style scoped lang='scss'>
-.bg-wrapper{
+.bg-wrapper {
   width: 100px;
   height: 100px;
   background-image: url('../assets/logo.png');
